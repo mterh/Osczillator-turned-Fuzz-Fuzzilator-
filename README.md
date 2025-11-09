@@ -19,3 +19,7 @@ Optionally an expression pedal can be used to controll the frequency of the osci
 
 ## Design Notes
 For the power supply I used my standard overvoltage and reverse protection circuit. There is an additional buffer before the oscillator circuit which at first glance might seem unneccessary, however I noticed that with the high gain from the first gain stage the TL072 struggles when loaded further by the oscillator. The envelope follower is based on the mxr blue box with some changes to accomodate for my vca design. The vca is a rather crude circuit, but I believe it works quite nicely for this application. Essentially its half of a long tailed pair with a current sink. 
+
+## Schematic
+
+![Fuzzilator — Schematic](docs/fuzzilator_schematic.png)
